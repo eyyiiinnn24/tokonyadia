@@ -6,11 +6,11 @@ import com.mandiri.tokonyadia.repository.ProductRepository;
 import com.mandiri.tokonyadia.service.ProductService;
 import com.mandiri.tokonyadia.utils.exception.DataNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.RequestBody;
 
 import java.util.List;
-import java.util.zip.DataFormatException;
 
 @Service
 public class ProductServiceImpl implements ProductService{
@@ -58,5 +58,8 @@ public class ProductServiceImpl implements ProductService{
     }
 //    @Override
 //    public List<Product> saveBulkProduct(List<Product> products)
-
+    @Override
+    public Page<Product> getProductPerPage(Pageable pageable) {
+    return productRepository.findAll(pageable);
+}
 }

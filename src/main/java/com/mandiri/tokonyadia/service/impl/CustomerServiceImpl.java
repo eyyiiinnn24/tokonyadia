@@ -2,6 +2,8 @@ package com.mandiri.tokonyadia.service.impl;
 import com.mandiri.tokonyadia.entity.Customer;
 import com.mandiri.tokonyadia.repository.CustomerRepository;
 import com.mandiri.tokonyadia.service.CustomerService;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -37,5 +39,9 @@ public class CustomerServiceImpl implements CustomerService {
     @Override
     public void deleteCustomer(String id) {
         customerRepository.deleteById(id);
+    }
+    @Override
+    public Page<Customer> getCustomerPerPage(Pageable pageable) {
+        return customerRepository.findAll(pageable);
     }
 }

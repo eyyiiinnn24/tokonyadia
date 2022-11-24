@@ -4,6 +4,9 @@ import com.mandiri.tokonyadia.constant.ApiUrlConstant;
 import com.mandiri.tokonyadia.entity.Customer;
 import com.mandiri.tokonyadia.service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -41,4 +44,12 @@ public class CustomerController {
         return customerService.getAllCustomer();
     }
 
+
+    @GetMapping("/customerpage")
+    public Page<Customer> getCustomers(@RequestParam(name="page", defaultValue = "1") Integer page,
+                                       @RequestParam(name="size", defaultValue = "3") Integer size){
+
+        Pageable pageable=PageRequest.of(page,size);
+        return customerService.getCustomerPerPage(pageable);
+    }
 }
