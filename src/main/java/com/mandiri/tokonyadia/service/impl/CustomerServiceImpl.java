@@ -41,7 +41,15 @@ public class CustomerServiceImpl implements CustomerService {
         customerRepository.deleteById(id);
     }
     @Override
+
     public Page<Customer> getCustomerPerPage(Pageable pageable) {
         return customerRepository.findAll(pageable);
+    }
+
+
+    @Override
+    public List<Customer> search(String criteriaName) {
+        return customerRepository.findCustomerByFullNameIsLikeIgnoreCase(criteriaName);
+        //kalo mau mencari bagian salah satu nama maka gunakan IsContaining pada nama method.
     }
 }

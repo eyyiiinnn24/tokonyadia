@@ -16,5 +16,7 @@ public interface CustomerService {
 
         Page<Customer> getCustomerPerPage(Pageable pageable);
 
+        public List<Customer> search(String criteriaName);
+
     }
 

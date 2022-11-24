@@ -4,6 +4,7 @@ import com.mandiri.tokonyadia.constant.ApiUrlConstant;
 import com.mandiri.tokonyadia.entity.Customer;
 import com.mandiri.tokonyadia.entity.Product;
 import com.mandiri.tokonyadia.service.ProductService;
+import com.mandiri.tokonyadia.utils.PageResponseWrapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -49,10 +50,11 @@ public class ProductController {
         return productService.getAllProduct();
     }
     @GetMapping("/productpage")
-    public Page<Product> getProducts(@RequestParam(name="page", defaultValue = "1") Integer page,
-                                       @RequestParam(name="size", defaultValue = "3") Integer size){
+    public PageResponseWrapper<Product> getProducts(@RequestParam(name="page", defaultValue = "1") Integer page,
+                                                    @RequestParam(name="size", defaultValue = "3") Integer size){
 
         Pageable pageable= PageRequest.of(page,size);
-        return productService.getProductPerPage(pageable);
+        Page<Product> products=productService.getProductPerPage(pageable);
+        return new PageResponseWrapper<>(products);
     }
 }
