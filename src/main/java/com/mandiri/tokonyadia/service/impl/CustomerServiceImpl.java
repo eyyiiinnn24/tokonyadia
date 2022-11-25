@@ -1,9 +1,12 @@
 package com.mandiri.tokonyadia.service.impl;
+import com.mandiri.tokonyadia.dto.CustomerSearchDTO;
 import com.mandiri.tokonyadia.entity.Customer;
 import com.mandiri.tokonyadia.repository.CustomerRepository;
 import com.mandiri.tokonyadia.service.CustomerService;
+import com.mandiri.tokonyadia.specification.CustomerSpecification;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
+import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -37,16 +40,15 @@ public class CustomerServiceImpl implements CustomerService {
         return customerRepository.findById(CustomerId).get();
     }
     @Override
-    public void deleteCustomer(String id) {
+    public Customer deleteCustomer(String id) {
         customerRepository.deleteById(id);
+        return null;
     }
     @Override
-
-    public Page<Customer> getCustomerPerPage(Pageable pageable) {
-        return customerRepository.findAll(pageable);
+    public Page<Customer> getCustomerPerPage(Pageable pageable, CustomerSearchDTO customerSearchDTO) {
+        Specification<Customer> customerSpecification= CustomerSpecification.getSpecification(customerSearchDTO);
+        return customerRepository.findAll(customerSpecification, pageable);
     }
-
-
     @Override
     public List<Customer> search(String criteriaName) {
         return customerRepository.findCustomerByFullNameIsLikeIgnoreCase(criteriaName);

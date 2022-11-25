@@ -14,5 +14,5 @@ import java.util.Date;
 public class CustomerSearchDTO {
     private String customerFullName;
     private String customerAddress;
-    private Date customerBirthDate;
+    private String customerBirthDate;
 }
