@@ -1,5 +1,6 @@
 package com.mandiri.tokonyadia.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -29,8 +30,9 @@ public class PurchaseDetail {
     private Integer quantity;
     private Integer productTransactionPrice;
 
-    @ManyToOne
+    @ManyToOne(cascade = {CascadeType.ALL})
     @JoinColumn(name="purchase_id")
+    @JsonIgnoreProperties("purchaseDetail")
     private Purchase purchase;
 
 }
