@@ -1,0 +1,25 @@
+2022-11-28 15:26:24.278  WARN 5534 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-28 15:26:24.734  INFO 5534 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-28 15:26:24.753  INFO 5534 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-28 15:26:24.759  INFO 5534 --- [restartedMain] c.m.tokonyadia.TokonyadiaApplication     : Started TokonyadiaApplication in 1.853 seconds (JVM running for 27.752)
+2022-11-28 15:26:24.762  INFO 5534 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-11-28 15:26:29.986  INFO 5534 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 31 class path changes (31 additions, 0 deletions, 0 modifications)
+2022-11-28 15:26:29.990  INFO 5534 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-11-28 15:26:29.995  INFO 5534 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-28 15:26:29.996  INFO 5534 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2022-11-28 15:26:29.999  INFO 5534 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2022-11-28 15:26:30.130  INFO 5534 --- [restartedMain] c.m.tokonyadia.TokonyadiaApplication     : Starting TokonyadiaApplication using Java 19 on Eyyins-MacBook.local with PID 5534 (/Users/eyyin/Documents/BOOTCAMP MANDIRI/tokonyadia/target/classes started by eyyin in /Users/eyyin/Documents/BOOTCAMP MANDIRI/tokonyadia)
+2022-11-28 15:26:30.131  INFO 5534 --- [restartedMain] c.m.tokonyadia.TokonyadiaApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-11-28 15:26:30.678  INFO 5534 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-28 15:26:30.748  INFO 5534 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69 ms. Found 4 JPA repository interfaces.
+2022-11-28 15:26:31.029  INFO 5534 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-28 15:26:31.030  INFO 5534 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-28 15:26:31.032  INFO 5534 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-28 15:26:31.059  INFO 5534 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-28 15:26:31.059  INFO 5534 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 923 ms
+2022-11-28 15:26:31.159  INFO 5534 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-28 15:26:31.179  INFO 5534 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2022-11-28 15:26:31.215  INFO 5534 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2022-11-28 15:26:31.215  INFO 5534 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-28 15:26:31.766  INFO 5534 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-28 15:26:31.767  INFO 5534 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'

@@ -1,0 +1,24 @@
+2022-11-28 13:54:58.944  INFO 4571 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-28 13:54:59.009  INFO 4571 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-28 13:54:59.364  WARN 4571 --- [restartedMain] org.hibernate.id.UUIDHexGenerator        : HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2022-11-28 13:55:00.334  INFO 4571 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-28 13:55:00.345  INFO 4571 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-28 13:55:01.309  WARN 4571 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-28 13:55:01.927  INFO 4571 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-28 13:55:01.981  INFO 4571 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-28 13:55:01.997  INFO 4571 --- [restartedMain] c.m.tokonyadia.TokonyadiaApplication     : Started TokonyadiaApplication in 9.354 seconds (JVM running for 10.954)
+2022-11-28 13:55:12.959  INFO 4571 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-28 13:55:12.960  INFO 4571 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-28 13:55:12.961  INFO 4571 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-11-28 13:55:13.044  WARN 4571 --- [http-nio-8080-exec-1] com.mandiri.tokonyadia.controller.Hello  : Log Warning
+2022-11-28 13:55:13.044 ERROR 4571 --- [http-nio-8080-exec-1] com.mandiri.tokonyadia.controller.Hello  : Log error
+2022-11-28 13:55:13.045  WARN 4571 --- [http-nio-8080-exec-1] com.mandiri.tokonyadia.controller.Hello  : is that rolling ?
+2022-11-28 13:55:13.045  WARN 4571 --- [http-nio-8080-exec-1] com.mandiri.tokonyadia.controller.Hello  : is that rolling ?
+2022-11-28 13:55:13.045  WARN 4571 --- [http-nio-8080-exec-1] com.mandiri.tokonyadia.controller.Hello  : is that rolling ?
+2022-11-28 13:55:13.045  WARN 4571 --- [http-nio-8080-exec-1] com.mandiri.tokonyadia.controller.Hello  : is that rolling ?
+2022-11-28 13:55:13.045  WARN 4571 --- [http-nio-8080-exec-1] com.mandiri.tokonyadia.controller.Hello  : is that rolling ?
+2022-11-28 13:55:13.045  WARN 4571 --- [http-nio-8080-exec-1] com.mandiri.tokonyadia.controller.Hello  : is that rolling ?
+2022-11-28 13:55:13.045  WARN 4571 --- [http-nio-8080-exec-1] com.mandiri.tokonyadia.controller.Hello  : is that rolling ?
+2022-11-28 13:55:13.045  WARN 4571 --- [http-nio-8080-exec-1] com.mandiri.tokonyadia.controller.Hello  : is that rolling ?
+2022-11-28 13:55:13.045  WARN 4571 --- [http-nio-8080-exec-1] com.mandiri.tokonyadia.controller.Hello  : is that rolling ?
+2022-11-28 13:55:13.046  WARN 4571 --- [http-nio-8080-exec-1] com.mandiri.tokonyadia.controller.Hello  : is that rolling ?

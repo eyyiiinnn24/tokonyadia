@@ -1,0 +1,20 @@
+2022-11-29 16:16:40.689  INFO 5995 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-11-29 16:16:40.696  INFO 5995 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-11-29 16:16:40.699  INFO 5995 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2022-11-29 16:16:40.778  INFO 5995 --- [main] c.m.t.s.impl.CustomerControllerTest      : Started CustomerControllerTest in 2.833 seconds (JVM running for 6.828)
+2022-11-29 16:17:02.514  INFO 6004 --- [main] c.m.t.s.impl.CustomerControllerTest      : Starting CustomerControllerTest using Java 19 on Eyyins-MacBook.local with PID 6004 (started by eyyin in /Users/eyyin/Documents/BOOTCAMP MANDIRI/tokonyadia)
+2022-11-29 16:17:02.516  INFO 6004 --- [main] c.m.t.s.impl.CustomerControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2022-11-29 16:17:04.731  INFO 6004 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-11-29 16:17:04.731  INFO 6004 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-11-29 16:17:04.733  INFO 6004 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2022-11-29 16:17:04.788  INFO 6004 --- [main] c.m.t.s.impl.CustomerControllerTest      : Started CustomerControllerTest in 3.104 seconds (JVM running for 7.167)
+2022-11-29 16:17:04.941  WARN 6004 --- [main] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.mandiri.tokonyadia.utils.Response<com.mandiri.tokonyadia.entity.Customer>> com.mandiri.tokonyadia.controller.CustomerController.updateCustomer(com.mandiri.tokonyadia.entity.Customer)]
+2022-11-29 16:17:49.651  INFO 6019 --- [main] c.m.t.s.impl.CustomerControllerTest      : Starting CustomerControllerTest using Java 19 on Eyyins-MacBook.local with PID 6019 (started by eyyin in /Users/eyyin/Documents/BOOTCAMP MANDIRI/tokonyadia)
+2022-11-29 16:17:49.655  INFO 6019 --- [main] c.m.t.s.impl.CustomerControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2022-11-29 16:17:51.893  INFO 6019 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-11-29 16:17:51.894  INFO 6019 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-11-29 16:17:51.896  INFO 6019 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2022-11-29 16:17:51.947  INFO 6019 --- [main] c.m.t.s.impl.CustomerControllerTest      : Started CustomerControllerTest in 3.058 seconds (JVM running for 7.495)
+2022-11-29 16:17:52.132  WARN 6019 --- [main] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<com.mandiri.tokonyadia.utils.Response<com.mandiri.tokonyadia.entity.Customer>> com.mandiri.tokonyadia.controller.CustomerController.updateCustomer(com.mandiri.tokonyadia.entity.Customer)]
+2022-11-29 16:19:08.127  INFO 6035 --- [main] c.m.t.s.impl.CustomerControllerTest      : Starting CustomerControllerTest using Java 19 on Eyyins-MacBook.local with PID 6035 (started by eyyin in /Users/eyyin/Documents/BOOTCAMP MANDIRI/tokonyadia)
+2022-11-29 16:19:08.129  INFO 6035 --- [main] c.m.t.s.impl.CustomerControllerTest      : No active profile set, falling back to 1 default profile: "default"

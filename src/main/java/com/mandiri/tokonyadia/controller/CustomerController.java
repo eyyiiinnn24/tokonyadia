@@ -61,9 +61,8 @@ public class CustomerController {
         String message= ResponseMessage.DELETED_DATA;
         Response<Customer> response=new Response<>();
         response.setMessage(message);
-        response.setData(customerService.deleteCustomer(id));
-        return ResponseEntity.accepted().contentType(MediaType.APPLICATION_JSON)
-                .body(response);
+        customerService.deleteCustomer(id);
+        return ResponseEntity.ok().body(response);
 //        customerService.deleteCustomer(id);
     }
     @GetMapping

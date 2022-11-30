@@ -1,10 +1,12 @@
 package com.mandiri.tokonyadia.controller;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.HashMap;
 
 @RestController
+@Slf4j
 public class Hello {
 
 //PATH
@@ -13,6 +15,17 @@ public class Hello {
         return "Hello Merin's World";
     }
     ////PATH PARAMETER ATAU PATH VARIABLE
+    @GetMapping("test-logging")
+    public String exampleLogging(){
+        log.info("Log Info");
+        log.warn("Log Warning");
+        log.error("Log error");
+        for (int i = 0; i < 100 ; i++) {
+            log.warn("is that rolling ?");
+        }
+
+        return "Run Logging";
+    }
     @GetMapping("/pathVar/{var}")
     public String pathVar(@PathVariable String var)
     {

@@ -1,0 +1,20 @@
+2022-11-30 08:42:12.680  INFO 3224 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-30 08:42:12.711  INFO 3224 --- [restartedMain] c.m.tokonyadia.TokonyadiaApplication     : Started TokonyadiaApplication in 19.877 seconds (JVM running for 22.323)
+2022-11-30 08:42:21.845  INFO 3224 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-30 08:42:21.864  INFO 3224 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-30 08:42:21.872  INFO 3224 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-11-30 08:42:28.127  INFO 3253 --- [restartedMain] c.m.tokonyadia.TokonyadiaApplication     : Starting TokonyadiaApplication using Java 19 on Eyyins-MacBook.local with PID 3253 (/Users/eyyin/Documents/BOOTCAMP MANDIRI/tokonyadia/target/classes started by eyyin in /Users/eyyin/Documents/BOOTCAMP MANDIRI/tokonyadia)
+2022-11-30 08:42:28.129  INFO 3253 --- [restartedMain] c.m.tokonyadia.TokonyadiaApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-11-30 08:42:28.410  INFO 3253 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-30 08:42:28.410  INFO 3253 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-30 08:42:31.094  INFO 3253 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-30 08:42:31.290  INFO 3253 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 172 ms. Found 4 JPA repository interfaces.
+2022-11-30 08:42:33.290  INFO 3253 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-30 08:42:33.356  INFO 3253 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-30 08:42:33.358  INFO 3253 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-30 08:42:33.590  INFO 3253 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-30 08:42:33.591  INFO 3253 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5180 ms
+2022-11-30 08:42:34.190  INFO 3253 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-30 08:42:34.371  INFO 3253 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-30 08:42:34.894  INFO 3253 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-30 08:42:35.244  INFO 3253 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...

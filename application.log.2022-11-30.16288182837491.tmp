@@ -1,0 +1,21 @@
+2022-11-30 09:48:24.753  INFO 4190 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-30 09:48:24.758  INFO 4190 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-30 09:48:24.912  INFO 4190 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-30 09:48:24.913  INFO 4190 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3395 ms
+2022-11-30 09:48:25.284  INFO 4190 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-30 09:48:25.369  INFO 4190 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-30 09:48:25.650  INFO 4190 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-30 09:48:25.798  INFO 4190 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-30 09:48:25.993  INFO 4190 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-30 09:48:26.027  INFO 4190 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-30 09:48:26.310  WARN 4190 --- [restartedMain] org.hibernate.id.UUIDHexGenerator        : HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2022-11-30 09:48:27.318  INFO 4190 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-30 09:48:27.339  INFO 4190 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-30 09:48:28.467  WARN 4190 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-30 09:48:30.159  WARN 4190 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: a690fb63-ba99-4c82-97c6-613a4b0e03a7
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-11-30 09:48:30.311  INFO 4190 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@b8945d0, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@9685c85, org.springframework.security.web.context.SecurityContextPersistenceFilter@5ef692cb, org.springframework.security.web.header.HeaderWriterFilter@30b3b35e, org.springframework.security.web.csrf.CsrfFilter@6c84f5d2, org.springframework.security.web.authentication.logout.LogoutFilter@1c06adc7, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3530d047, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3ecfa94d, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@20986629, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6e7d93cf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7e43bef3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4e83447f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1530986d, org.springframework.security.web.session.SessionManagementFilter@53d9a421, org.springframework.security.web.access.ExceptionTranslationFilter@575bf95, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@21450bd0]

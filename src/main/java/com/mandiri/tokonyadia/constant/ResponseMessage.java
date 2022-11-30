@@ -12,6 +12,12 @@ public class ResponseMessage {
             ="Data resourced customer Has been DELETED";
     public static final String UPDATED_DATA
             ="Data resourced customer Has been UPDATED";
+    public static final String LIMIT_STOCK
+            ="STOCK NOT ENOUGH FOR THE TRANSACTION!";
 
+    public static final String BAD_REQUEST
+            ="BAD REQUEST!";
+    public static final String SAVE_PURCHASE
+            ="THIS DATA SAVED!";
     }
 

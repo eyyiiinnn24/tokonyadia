@@ -1,0 +1,19 @@
+2022-11-30 08:45:16.735  INFO 3297 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-30 08:45:16.745  INFO 3297 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-30 08:45:16.757  INFO 3297 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-11-30 08:45:19.589  INFO 3297 --- [http-nio-8080-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 1609 ms
+2022-11-30 08:51:46.614  WARN 3297 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s831ms), soft-evicting connections from pool.
+2022-11-30 09:27:59.674  INFO 3297 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-30 09:27:59.704  INFO 3297 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-30 09:27:59.715  INFO 3297 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-11-30 09:28:17.890  INFO 3935 --- [restartedMain] c.m.tokonyadia.TokonyadiaApplication     : Starting TokonyadiaApplication using Java 19 on Eyyins-MacBook.local with PID 3935 (/Users/eyyin/Documents/BOOTCAMP MANDIRI/tokonyadia/target/classes started by eyyin in /Users/eyyin/Documents/BOOTCAMP MANDIRI/tokonyadia)
+2022-11-30 09:28:17.893  INFO 3935 --- [restartedMain] c.m.tokonyadia.TokonyadiaApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-11-30 09:28:18.190  INFO 3935 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-30 09:28:18.190  INFO 3935 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-30 09:28:20.323  INFO 3935 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-30 09:28:20.486  INFO 3935 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 140 ms. Found 4 JPA repository interfaces.
+2022-11-30 09:28:22.390  INFO 3935 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-30 09:28:22.424  INFO 3935 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-30 09:28:22.425  INFO 3935 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-30 09:28:22.593  INFO 3935 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-30 09:28:22.593  INFO 3935 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4402 ms

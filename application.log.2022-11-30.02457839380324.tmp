@@ -1,0 +1,17 @@
+2022-11-30 08:42:35.862  INFO 3253 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-30 08:42:35.992  INFO 3253 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-30 08:42:36.889  WARN 3253 --- [restartedMain] org.hibernate.id.UUIDHexGenerator        : HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2022-11-30 08:42:40.408  INFO 3253 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-30 08:42:40.424  INFO 3253 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-30 08:42:42.364  WARN 3253 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-30 08:42:45.652  INFO 3253 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-30 08:42:45.756  INFO 3253 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-30 08:42:45.794  INFO 3253 --- [restartedMain] c.m.tokonyadia.TokonyadiaApplication     : Started TokonyadiaApplication in 19.466 seconds (JVM running for 21.248)
+2022-11-30 08:44:09.891  INFO 3253 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-30 08:44:09.900  INFO 3253 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-30 08:44:09.912  INFO 3253 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-11-30 08:44:36.313  INFO 3297 --- [restartedMain] c.m.tokonyadia.TokonyadiaApplication     : Starting TokonyadiaApplication using Java 19 on Eyyins-MacBook.local with PID 3297 (/Users/eyyin/Documents/BOOTCAMP MANDIRI/tokonyadia/target/classes started by eyyin in /Users/eyyin/Documents/BOOTCAMP MANDIRI/tokonyadia)
+2022-11-30 08:44:36.327  INFO 3297 --- [restartedMain] c.m.tokonyadia.TokonyadiaApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-11-30 08:44:36.736  INFO 3297 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-30 08:44:36.737  INFO 3297 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-30 08:44:39.914  INFO 3297 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.

@@ -9,7 +9,7 @@ import java.sql.Date;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CustomerSpecification {
+public class CustomerSpecification { //ini criteria builder
     public static Specification<Customer> getSpecification(CustomerSearchDTO customerSearchDTO) {
         return (root, query, criteriaBuilder) -> {
             List<Predicate> predicates = new ArrayList<>();

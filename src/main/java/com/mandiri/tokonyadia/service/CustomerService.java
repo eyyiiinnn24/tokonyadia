@@ -13,7 +13,7 @@ public interface CustomerService {
         Customer updateCustomer(Customer customer);
         List<Customer> getAllCustomer();
         Customer getCustomerById(String CustomerId);
-        Customer deleteCustomer(String id);
+        void deleteCustomer(String id);
 
         Page<Customer> getCustomerPerPage(Pageable pageable, CustomerSearchDTO  customerSearchDTO);
 

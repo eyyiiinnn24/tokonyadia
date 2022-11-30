@@ -1,0 +1,24 @@
+2022-11-29 15:16:55.028  INFO 5437 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-11-29 15:16:55.062  INFO 5437 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-11-29 15:16:55.071  INFO 5437 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 9 ms
+2022-11-29 15:16:55.196  INFO 5437 --- [main] c.m.t.s.impl.CustomerControllerTest      : Started CustomerControllerTest in 6.578 seconds (JVM running for 11.704)
+2022-11-29 15:19:54.355  INFO 5471 --- [main] c.m.t.s.impl.CustomerControllerTest      : Starting CustomerControllerTest using Java 19 on Eyyins-MacBook.local with PID 5471 (started by eyyin in /Users/eyyin/Documents/BOOTCAMP MANDIRI/tokonyadia)
+2022-11-29 15:19:54.359  INFO 5471 --- [main] c.m.t.s.impl.CustomerControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2022-11-29 15:19:56.796  INFO 5471 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-11-29 15:19:56.797  INFO 5471 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-11-29 15:19:56.799  INFO 5471 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2022-11-29 15:19:56.879  INFO 5471 --- [main] c.m.t.s.impl.CustomerControllerTest      : Started CustomerControllerTest in 3.49 seconds (JVM running for 7.608)
+2022-11-29 15:24:58.310  INFO 5543 --- [main] c.m.t.s.impl.CustomerControllerTest      : Starting CustomerControllerTest using Java 19 on Eyyins-MacBook.local with PID 5543 (started by eyyin in /Users/eyyin/Documents/BOOTCAMP MANDIRI/tokonyadia)
+2022-11-29 15:24:58.312  INFO 5543 --- [main] c.m.t.s.impl.CustomerControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2022-11-29 15:25:00.668  INFO 5543 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-11-29 15:25:00.668  INFO 5543 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-11-29 15:25:00.669  INFO 5543 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2022-11-29 15:25:00.716  INFO 5543 --- [main] c.m.t.s.impl.CustomerControllerTest      : Started CustomerControllerTest in 3.306 seconds (JVM running for 8.158)
+2022-11-29 15:27:07.172  INFO 5562 --- [main] c.m.t.s.impl.CustomerControllerTest      : Starting CustomerControllerTest using Java 19 on Eyyins-MacBook.local with PID 5562 (started by eyyin in /Users/eyyin/Documents/BOOTCAMP MANDIRI/tokonyadia)
+2022-11-29 15:27:07.176  INFO 5562 --- [main] c.m.t.s.impl.CustomerControllerTest      : No active profile set, falling back to 1 default profile: "default"
+2022-11-29 15:27:09.703  INFO 5562 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2022-11-29 15:27:09.703  INFO 5562 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2022-11-29 15:27:09.705  INFO 5562 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2022-11-29 15:27:09.761  INFO 5562 --- [main] c.m.t.s.impl.CustomerControllerTest      : Started CustomerControllerTest in 3.521 seconds (JVM running for 7.922)
+2022-11-29 15:27:40.709  INFO 5570 --- [main] c.m.t.s.impl.CustomerControllerTest      : Starting CustomerControllerTest using Java 19 on Eyyins-MacBook.local with PID 5570 (started by eyyin in /Users/eyyin/Documents/BOOTCAMP MANDIRI/tokonyadia)
+2022-11-29 15:27:40.714  INFO 5570 --- [main] c.m.t.s.impl.CustomerControllerTest      : No active profile set, falling back to 1 default profile: "default"

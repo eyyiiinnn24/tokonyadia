@@ -5,6 +5,7 @@ import com.mandiri.tokonyadia.entity.Product;
 import com.mandiri.tokonyadia.repository.ProductRepository;
 import com.mandiri.tokonyadia.service.ProductService;
 import com.mandiri.tokonyadia.utils.exception.DataNotFoundException;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -13,6 +14,8 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
+@Slf4j
+
 public class ProductServiceImpl implements ProductService{
 
     ProductRepository productRepository;
@@ -39,9 +42,12 @@ public class ProductServiceImpl implements ProductService{
 
     @Override
     public Product getProductById(String productId) {
-        if (productRepository.findById(productId).isPresent()) {
+        if (productRepository.findById(productId).isPresent())
+        {
             return productRepository.findById(productId).get();
         } else {
+            log.error(String.valueOf(new DataNotFoundException(String.format(ResponseMessage.NOT_FOUND_MESSAGE,
+                            ResponseMessage.PRODUCT,productId))));
 //            throw new DataNotFoundException("Tidak ditemukan data dengan id=" + productId + " , silahkan input ulang");
             throw new DataNotFoundException(String.format(ResponseMessage.NOT_FOUND_MESSAGE,
             ResponseMessage.PRODUCT,productId));

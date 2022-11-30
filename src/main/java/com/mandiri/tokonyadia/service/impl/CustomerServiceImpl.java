@@ -40,13 +40,12 @@ public class CustomerServiceImpl implements CustomerService {
         return customerRepository.findById(CustomerId).get();
     }
     @Override
-    public Customer deleteCustomer(String id) {
+    public void deleteCustomer(String id) {
         customerRepository.deleteById(id);
-        return null;
     }
     @Override
-    public Page<Customer> getCustomerPerPage(Pageable pageable, CustomerSearchDTO customerSearchDTO) {
-        Specification<Customer> customerSpecification= CustomerSpecification.getSpecification(customerSearchDTO);
+    public Page<Customer> getCustomerPerPage(Pageable pageable, CustomerSearchDTO customerSearchDTO){
+        Specification<Customer> customerSpecification = CustomerSpecification.getSpecification(customerSearchDTO);
         return customerRepository.findAll(customerSpecification, pageable);
     }
     @Override
