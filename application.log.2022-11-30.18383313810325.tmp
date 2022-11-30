@@ -1,0 +1,19 @@
+2022-11-30 10:23:21.234  INFO 4770 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-30 10:23:21.464  INFO 4770 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 169 ms. Found 4 JPA repository interfaces.
+2022-11-30 10:23:23.342  INFO 4770 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-30 10:23:23.369  INFO 4770 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-30 10:23:23.376  INFO 4770 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-30 10:23:23.533  INFO 4770 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-30 10:23:23.533  INFO 4770 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4490 ms
+2022-11-30 10:23:23.984  INFO 4770 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-30 10:23:24.091  INFO 4770 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-30 10:23:24.467  INFO 4770 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-30 10:23:24.638  INFO 4770 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-30 10:23:25.111  INFO 4770 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-30 10:23:25.143  INFO 4770 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-30 10:23:25.425  WARN 4770 --- [restartedMain] o.h.b.i.InFlightMetadataCollectorImpl    : HHH000069: Duplicate generator name system-uuid
+2022-11-30 10:23:25.475  WARN 4770 --- [restartedMain] o.h.b.i.InFlightMetadataCollectorImpl    : HHH000069: Duplicate generator name system-uuid
+2022-11-30 10:23:25.481 ERROR 4770 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: @OneToOne or @ManyToOne on com.mandiri.tokonyadia.entity.AppUser.roles references an unknown entity: java.util.List
+2022-11-30 10:23:25.482  WARN 4770 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.AnnotationException: @OneToOne or @ManyToOne on com.mandiri.tokonyadia.entity.AppUser.roles references an unknown entity: java.util.List
+2022-11-30 10:23:25.485  INFO 4770 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-30 10:23:25.501  INFO 4770 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

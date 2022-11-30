@@ -30,6 +30,10 @@ public class Customer {
     @JsonFormat(pattern="yyyy-MM-dd", timezone = "UTC")
     private Date birthDate;
     private Integer status;
+
+    @OneToOne
+    @JoinColumn(name="user_id")
+    private AppUser appUser;
 }
 
 

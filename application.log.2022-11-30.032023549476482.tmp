@@ -1,0 +1,18 @@
+2022-11-30 16:48:17.190  INFO 9429 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-30 16:48:17.198  INFO 9429 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-30 16:48:17.202  INFO 9429 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2022-11-30 16:54:33.948 ERROR 9429 --- [http-nio-8080-exec-6] o.s.s.web.AuthenticationEntryPoint       : Unauthorized error:Full authentication is required to access this resource
+2022-11-30 16:55:00.104 ERROR 9429 --- [http-nio-8080-exec-7] o.s.s.web.AuthenticationEntryPoint       : Unauthorized error:Full authentication is required to access this resource
+2022-11-30 16:55:21.487 ERROR 9429 --- [http-nio-8080-exec-8] o.s.s.web.AuthenticationEntryPoint       : Unauthorized error:Full authentication is required to access this resource
+2022-11-30 16:57:14.546  INFO 9429 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-30 16:57:14.559  INFO 9429 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-30 16:57:14.569  INFO 9429 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-11-30 16:57:21.954  INFO 9579 --- [restartedMain] c.m.tokonyadia.TokonyadiaApplication     : Starting TokonyadiaApplication using Java 19 on Eyyins-MacBook.local with PID 9579 (/Users/eyyin/Documents/BOOTCAMP MANDIRI/tokonyadia/target/classes started by eyyin in /Users/eyyin/Documents/BOOTCAMP MANDIRI/tokonyadia)
+2022-11-30 16:57:21.957  INFO 9579 --- [restartedMain] c.m.tokonyadia.TokonyadiaApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-11-30 16:57:22.137  INFO 9579 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-30 16:57:22.138  INFO 9579 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-30 16:57:24.227  INFO 9579 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-30 16:57:24.364  INFO 9579 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 123 ms. Found 6 JPA repository interfaces.
+2022-11-30 16:57:25.781  INFO 9579 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-30 16:57:25.800  INFO 9579 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-30 16:57:25.800  INFO 9579 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]

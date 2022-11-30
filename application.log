@@ -1,3 +1,40 @@
-2022-11-30 09:48:30.393  INFO 4190 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2022-11-30 09:48:30.473  INFO 4190 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2022-11-30 09:48:30.495  INFO 4190 --- [restartedMain] c.m.tokonyadia.TokonyadiaApplication     : Started TokonyadiaApplication in 10.877 seconds (JVM running for 13.144)
+2022-11-30 17:02:06.999  WARN 9701 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-30 17:02:08.484  INFO 9701 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-30 17:02:08.533  INFO 9701 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-30 17:02:08.551  INFO 9701 --- [restartedMain] c.m.tokonyadia.TokonyadiaApplication     : Started TokonyadiaApplication in 10.494 seconds (JVM running for 12.171)
+2022-11-30 17:02:12.736  INFO 9701 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-30 17:02:12.736  INFO 9701 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-11-30 17:02:12.738  INFO 9701 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-11-30 17:05:45.250  INFO 9701 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-30 17:05:45.258  INFO 9701 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-30 17:05:45.261  INFO 9701 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-11-30 21:07:04.651  INFO 1387 --- [restartedMain] c.m.tokonyadia.TokonyadiaApplication     : Starting TokonyadiaApplication using Java 19 on Eyyins-MacBook.local with PID 1387 (/Users/eyyin/Documents/BOOTCAMP MANDIRI/tokonyadia/target/classes started by eyyin in /Users/eyyin/Documents/BOOTCAMP MANDIRI/tokonyadia)
+2022-11-30 21:07:04.660  INFO 1387 --- [restartedMain] c.m.tokonyadia.TokonyadiaApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-11-30 21:07:04.995  INFO 1387 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-30 21:07:04.997  INFO 1387 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-30 21:07:09.598  INFO 1387 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-30 21:07:10.087  INFO 1387 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 452 ms. Found 6 JPA repository interfaces.
+2022-11-30 21:07:13.741  INFO 1387 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-11-30 21:07:13.770  INFO 1387 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-11-30 21:07:13.770  INFO 1387 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-11-30 21:07:14.125  INFO 1387 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-11-30 21:07:14.131  INFO 1387 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 9132 ms
+2022-11-30 21:07:15.271  INFO 1387 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-30 21:07:15.606  INFO 1387 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-11-30 21:07:16.505  INFO 1387 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-30 21:07:16.983  INFO 1387 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-11-30 21:07:18.484  INFO 1387 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-11-30 21:07:18.581  INFO 1387 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-11-30 21:07:19.843  WARN 1387 --- [restartedMain] o.h.b.i.InFlightMetadataCollectorImpl    : HHH000069: Duplicate generator name system-uuid
+2022-11-30 21:07:19.978  WARN 1387 --- [restartedMain] o.h.b.i.InFlightMetadataCollectorImpl    : HHH000069: Duplicate generator name system-uuid
+2022-11-30 21:07:20.085  WARN 1387 --- [restartedMain] org.hibernate.id.UUIDHexGenerator        : HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2022-11-30 21:07:24.239  INFO 1387 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-30 21:07:24.261  INFO 1387 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-30 21:07:27.103  INFO 1387 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@411629a3, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@40a3f880, org.springframework.security.web.context.SecurityContextPersistenceFilter@66930331, org.springframework.security.web.header.HeaderWriterFilter@26ed3c72, org.springframework.security.web.authentication.logout.LogoutFilter@3d556bb1, com.mandiri.tokonyadia.security.AuthTokenFilter@1e34e745, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@22181242, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7ffc5b37, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@37fcb70c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@16cff4a, org.springframework.security.web.session.SessionManagementFilter@37637ea7, org.springframework.security.web.access.ExceptionTranslationFilter@4e32c2a7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@75fa30bf]
+2022-11-30 21:07:27.779  WARN 1387 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-30 21:07:31.127  INFO 1387 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-11-30 21:07:31.295  INFO 1387 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-30 21:07:31.332  INFO 1387 --- [restartedMain] c.m.tokonyadia.TokonyadiaApplication     : Started TokonyadiaApplication in 28.884 seconds (JVM running for 32.657)
+2022-11-30 21:08:39.242  INFO 1387 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-30 21:08:39.251  INFO 1387 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-11-30 21:08:39.260  INFO 1387 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
